@@ -3,7 +3,7 @@ from variacao02 import UtilitariosAnaliseTexto
 
 class TestUtilitariosAnaliseTexto(unittest.TestCase):    
     def setUp(self):
-        self.util = UtilitariosAnaliseTexto()
+        self.util = UtilitariosAnaliseTexto("")
     
     def test_prefixo_comum_basico(self):
         lista_de_palavras = ["flor", "flora", "flop"]
